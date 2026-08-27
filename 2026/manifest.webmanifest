@@ -1,0 +1,16 @@
+{
+  "name": "Festival del Risorgimento 2026",
+  "short_name": "Festival Risorg.",
+  "description": "Mappa interattiva e programma del Festival del Risorgimento di Forlì, 11-29 settembre 2026.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B2E52",
+  "theme_color": "#0B2E52",
+  "icons": [
+    { "src": "icone/icona-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icone/icona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

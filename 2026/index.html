@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Festival del Risorgimento 2026 · Mappa e Programma</title>
+<meta name="description" content="Mappa interattiva e programma completo del Festival del Risorgimento di Forlì, 11-29 settembre 2026. Ingresso libero.">
+<meta name="theme-color" content="#0B2E52">
+<link rel="canonical" href="https://www.festivaldelrisorgimento.org/2026/">
+<meta property="og:title" content="Festival del Risorgimento 2026 · Forlì">
+<meta property="og:description" content="Tocca un punto sulla mappa e scopri cosa succede. 11-29 settembre 2026, ingresso libero.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:url" content="https://www.festivaldelrisorgimento.org/2026/">
+<meta property="og:image" content="https://www.festivaldelrisorgimento.org/2026/icone/social.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icone/apple-touch-icon.png">
+<link rel="icon" href="icone/icona-192.png" sizes="192x192">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Festival Risorgimento">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Poppins:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="tri"><i></i><i></i><i></i></div>
+<div class="app">
+
+<div class="top">
+  <div class="kick">Forlì · Centro storico</div>
+  <h1>Festival del Risorgimento</h1>
+  <div class="dates">11 – 29 settembre 2026</div>
+  <div class="libero">Ingresso libero</div>
+</div>
+
+<nav class="tabs"><div class="tabs-in" role="tablist">
+  <button class="tab" role="tab" id="t-adesso" aria-selected="true" data-v="adesso">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Adesso</button>
+  <button class="tab" role="tab" id="t-mappa" aria-selected="false" data-v="mappa">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3 3 5.5v16L9 19l6 2.5 6-2.5v-16L15 5.5 9 3z"/><path d="M9 3v16M15 5.5v16"/></svg>Mappa</button>
+  <button class="tab" role="tab" id="t-programma" aria-selected="false" data-v="programma">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Programma</button>
+</div></nav>
+
+<section class="view on" id="v-adesso">
+  <div class="hero" id="hero"></div>
+  <div id="adesso-corpo"></div>
+</section>
+
+<section class="view" id="v-mappa">
+  <div class="chips" id="chips-mappa"></div>
+  <div class="mapbox">
+    <div class="zoom"><button id="zin" aria-label="Ingrandisci">+</button><button id="zout" aria-label="Riduci">−</button></div>
+    <div class="mapscroll" id="mapscroll">
+      <div class="mapwrap" id="mapwrap"><img src="planimetria.jpg" loading="eager" decoding="async" alt="Planimetria del centro storico di Forlì con le postazioni del Festival"></div>
+    </div>
+  </div>
+  <p class="maphint">Tocca un numero per aprire la scheda · trascina per spostarti sulla mappa</p>
+  <div class="legenda" id="legenda"></div>
+</section>
+
+<section class="view" id="v-programma">
+  <div class="chips" id="chips-prog"></div>
+  <div id="prog-corpo"></div>
+</section>
+
+<footer>
+  Festival del Risorgimento · Forlì<br>
+  <a href="https://forlirisorge.it" target="_blank" rel="noopener">forlirisorge.it</a> · @festivaldelrisorgimento
+</footer>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Dettaglio evento">
+  <div class="grip"></div><div class="sh-in" id="sh-in"></div>
+  <button class="chiudi" id="chiudi">Chiudi</button>
+</div>
+<script src="programma.js"></script>
+<script src="app.js"></script>
+<script>
+if("serviceWorker" in navigator){
+  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+}
+</script>
+</body>
+</html>
