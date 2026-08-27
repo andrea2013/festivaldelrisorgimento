@@ -50,13 +50,13 @@ const EVENTI = [
   mapq:"Piazza Aurelio Saffi Forlì",
   occ:[{d:19,s:"10:30",e:"18:30"}], det:[]},
 
- {id:"giochi", p:6, cat:"famiglie", t:"Giochi storici e d'epoca",
+ {id:"giochi", p:6, cat:"giochi", t:"Giochi storici e d'epoca",
   sub:"Giochi e passatempi dell'Ottocento",
   luogo:"Piazzetta della Misura", indir:"Forlì, centro storico",
   mapq:"Piazzetta della Misura Forlì",
   occ:[{d:19,s:"10:30",e:"18:30"}], det:[]},
 
- {id:"ludica", p:11, cat:"famiglie", t:"Area ludica — comanda le truppe, riscrivi la battaglia",
+ {id:"ludica", p:11, cat:"strategia", t:"Area ludica — comanda le truppe, riscrivi la battaglia",
   sub:"Wargame storici con miniature dipinte a mano",
   luogo:"Salone del Chiostro di San Mercuriale", indir:"Piazza Saffi",
   mapq:"Abbazia di San Mercuriale Piazza Saffi Forlì",
@@ -143,7 +143,8 @@ const CAT = {
  mostra:{l:"Mostra",c:"#E9E4D6"},
  rievocazione:{l:"Rievocazione",c:"#D9453F"},
  concerto:{l:"Concerto",c:"#7FC2F2"},
- famiglie:{l:"Famiglie",c:"#8ED4A8"},
+ strategia:{l:"Giochi di strategia",c:"#8ED4A8"},
+ giochi:{l:"Giochi d'epoca",c:"#B9A8E0"},
  servizio:{l:"Servizio",c:"#B9C6D4"}
 };
 
