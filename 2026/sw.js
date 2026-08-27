@@ -2,7 +2,7 @@
    IMPORTANTE: quando aggiorni il programma, cambia il numero di VERSIONE
    qui sotto (es. da v1 a v2), altrimenti i telefoni continuano a mostrare
    la copia vecchia salvata in cache. */
-const VERSIONE = "festival-2026-v2";
+const VERSIONE = "festival-2026-v4";
 
 const FILE = [
   "./",
@@ -12,6 +12,7 @@ const FILE = [
   "./programma.js",
   "./planimetria.jpg",
   "./manifest.webmanifest",
+  "./icone/logo.png",
   "./icone/icona-192.png",
   "./icone/icona-512.png"
 ];

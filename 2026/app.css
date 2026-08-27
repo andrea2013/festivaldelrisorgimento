@@ -24,6 +24,7 @@ button{font-family:inherit;color:inherit;background:none;border:0;cursor:pointer
 .tri{height:4px;display:flex}
 .tri i{flex:1}.tri i:nth-child(1){background:#0E8A43}.tri i:nth-child(2){background:#fff}.tri i:nth-child(3){background:#CE2B37}
 .top{padding:18px 20px 0;text-align:center}
+.logo{display:block;width:64px;height:64px;margin:0 auto 12px}
 .kick{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--oro);font-weight:600}
 .top h1{font-family:var(--ui);font-weight:700;font-size:23px;letter-spacing:-.01em;margin:6px 0 2px;line-height:1.15}
 .top .dates{font-size:12.5px;color:var(--testo-2);letter-spacing:.02em}
