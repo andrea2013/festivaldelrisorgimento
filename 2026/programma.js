@@ -37,8 +37,8 @@ const EVENTI = [
        ["Relatori","Prof. Aldo Alessandro Mola — Storico\nProf. Davide Gnola — Scrittore e direttore del Museo della Marineria di Cesenatico\nDott. Mario De Simone — Notaio"],
        ["Coordina","Dott. Paolo Morelli — Giornalista, Direttore Responsabile de «La Voce Repubblicana»"]]},
 
- {id:"ristoro", p:12, cat:"servizio", t:"Aree ristoro",
-  sub:"Punti ristoro del Festival",
+ {id:"ristoro", p:12, cat:"cucina", t:"Cucina risorgimentale e romagnola",
+  sub:"Aree ristoro del Festival",
   luogo:"Piazza Saffi", indir:"Lato Palazzo del Podestà",
   mapq:"Piazza Aurelio Saffi Forlì",
   occ:[{d:19,s:"10:00",e:"23:59",dl:"01:00"},{d:20,s:"10:00",e:"23:59",dl:"24:00"}],
@@ -145,6 +145,7 @@ const CAT = {
  concerto:{l:"Concerto",c:"#7FC2F2"},
  strategia:{l:"Giochi di strategia",c:"#8ED4A8"},
  giochi:{l:"Giochi d'epoca",c:"#B9A8E0"},
+ cucina:{l:"Cucina risorgimentale",c:"#F0A07A"},
  servizio:{l:"Servizio",c:"#B9C6D4"}
 };
 

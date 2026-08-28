@@ -2,7 +2,7 @@
    IMPORTANTE: quando aggiorni il programma, cambia il numero di VERSIONE
    qui sotto (es. da v1 a v2), altrimenti i telefoni continuano a mostrare
    la copia vecchia salvata in cache. */
-const VERSIONE = "festival-2026-v4";
+const VERSIONE = "festival-2026-v6";
 
 const FILE = [
   "./",
