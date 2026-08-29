@@ -6,7 +6,7 @@ const EVENTI = [
   luogo:"Sala Randi del Comune di Forlì", indir:"Entrata da Via delle Torri",
   mapq:"Sala Randi Comune di Forlì Via delle Torri",
   occ:[{d:11,s:"20:00",e:"23:00"}],
-  det:[["Introduce","Dott. Fabio Bassanetti — Divulgatore storico culturale"],
+  det:[["Introduce","Dott. Maurizio Casadei — Presidente regionale ANVRG"],
        ["Relatori","Prof. Marco Boniardi — Docente al Politecnico di Milano\nProf. Andrea Sirotti Gaudenzi — Docente e saggista\nProf. Giorgio Sangiorgi — Storico del cinema"],
        ["Coordina","Dott. Simone Valmori — Scrittore"]]},
 
