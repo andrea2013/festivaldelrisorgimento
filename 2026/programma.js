@@ -8,7 +8,8 @@ const EVENTI = [
   occ:[{d:11,s:"20:00",e:"23:00"}],
   det:[["Introduce","Dott. Maurizio Casadei — Presidente regionale ANVRG"],
        ["Relatori","Prof. Marco Boniardi — Docente al Politecnico di Milano\nProf. Andrea Sirotti Gaudenzi — Docente e saggista\nProf. Giorgio Sangiorgi — Storico del cinema"],
-       ["Coordina","Dott. Simone Valmori — Scrittore"]]},
+       ["Coordina","Dott. Simone Valmori — Scrittore"],
+       ["Chiude","Enrico Pieri — Consigliere comunale"]]},
 
  {id:"most-in", p:9, cat:"mostra", t:"Inaugurazione della mostra «Res Publica»",
   sub:"Visioni Contemporanee del Risorgimento Italiano",
@@ -35,7 +36,8 @@ const EVENTI = [
   occ:[{d:18,s:"20:00",e:"23:00"}],
   det:[["Introduce","Dott. Maurizio Casadei — Presidente regionale ANVRG"],
        ["Relatori","Prof. Aldo Alessandro Mola — Storico\nProf. Davide Gnola — Scrittore e direttore del Museo della Marineria di Cesenatico\nDott. Mario De Simone — Notaio"],
-       ["Coordina","Dott. Paolo Morelli — Giornalista, Direttore Responsabile de «La Voce Repubblicana»"]]},
+       ["Coordina","Dott. Paolo Morelli — Giornalista, Direttore Responsabile de «La Voce Repubblicana»"],
+       ["Chiude","Enrico Pieri — Consigliere comunale"]]},
 
  {id:"ristoro", p:12, cat:"cucina", t:"Cucina risorgimentale e romagnola",
   sub:"Aree ristoro del Festival",
@@ -123,7 +125,8 @@ const EVENTI = [
   occ:[{d:25,s:"20:00",e:"23:00"}],
   det:[["Introduce","Prof. Andrea Sirotti Gaudenzi — Docente e saggista"],
        ["Relatori","Dott. Maurizio Casadei — Presidente regionale ANVRG\nProf. Luigi Ascanio — Presidente dell'Istituto per la Storia del Risorgimento Italiano, Forlì\nDott. Pietro Caruso — Giornalista, Direttore del «Pensiero Mazziniano»"],
-       ["Coordina","Prof. Marco Tupponi — Avvocato e Docente"]]},
+       ["Coordina","Prof. Marco Tupponi — Avvocato e Docente"],
+       ["Chiude","Enrico Pieri — Consigliere comunale"]]},
 
  {id:"cri", p:13, cat:"servizio", t:"Postazione Croce Rossa Italiana",
   sub:"Presidio sanitario del Festival",
