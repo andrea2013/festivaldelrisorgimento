@@ -24,9 +24,9 @@ const EVENTI = [
   occ:[{d:13,s:"15:30",e:"19:00"},{d:15,s:"15:30",e:"19:00"},{d:16,s:"15:30",e:"19:00"},
        {d:17,s:"15:30",e:"19:00"},{d:18,s:"10:00",e:"19:30"},{d:19,s:"10:00",e:"19:30"},
        {d:20,s:"10:00",e:"19:30"},{d:22,s:"15:30",e:"19:00"},{d:23,s:"15:30",e:"19:00"},
-       {d:24,s:"15:30",e:"19:00"},{d:25,s:"15:30",e:"19:00"},{d:26,s:"15:30",e:"19:00"},
-       {d:27,s:"15:30",e:"19:00"}],
-  det:[["Orari","Martedì–domenica 15:30 – 19:00\nVenerdì 18, sabato 19 e domenica 20: 10:00 – 19:30\nChiuso il lunedì"],
+       {d:24,s:"15:30",e:"19:00"},{d:25,s:"15:30",e:"19:00"},{d:26,s:"10:00",e:"19:30"},
+       {d:27,s:"10:00",e:"19:30"}],
+  det:[["Orari","Martedì–venerdì 15:30 – 19:00\nSabato e domenica 10:00 – 19:30 (anche venerdì 18)\nChiuso il lunedì"],
        ["Periodo","Dal 12 al 27 settembre 2026"]]},
 
  {id:"conv2", p:8, cat:"convegno", t:"«Oltre la camicia rossa: i valori garibaldini nel XXI secolo»",
@@ -94,7 +94,7 @@ const EVENTI = [
   mapq:"Musei San Domenico Forlì",
   occ:[{d:19,s:"21:00",e:"23:00"}],
   det:[["Direttore d'orchestra","Michele Bui — Orchestra Filarmonica delle Terre Verdiane di Reggio Emilia"],
-       ["Interpreti","Soprano Antonella Orefice · Mezzosoprano Tatiana Shumkova\nTenore Christian Cola · Pianista Michele Catalano"],
+       ["Interpreti","Soprano Antonella Orefice · Mezzosoprano Tatiana Shumkova\nTenore Christian Cola · Pianista Sergio Catalano"],
        ["Cori","Coro Città di Forlì · Corale Lirica San Rocco"],
        ["Prima parte","1. La Traviata — Preludio, atto I\n2. La Traviata — «Dei miei bollenti spiriti», Alfredo\n3. Il Trovatore — «Stride la vampa», Azucena e coro\n4. La Forza del Destino — «La Vergine degli angeli», Leonora e coro\n5. Nabucco — «Va' pensiero», coro\n6. Nabucco — Sinfonia"],
        ["Seconda parte","7. Un Ballo in Maschera — «Re dell'abisso», Ulrica e coro\n8. Aida — Preludio\n9. Aida — «Celeste Aida», Radamès\n10. Aida — «Ritorna vincitor», Aida\n11. Aida — Scena del trionfo, orchestra\n12. Aida — Finale IV: «O terra addio»"]]},
@@ -116,7 +116,7 @@ const EVENTI = [
   occ:[{d:20,s:"21:00",e:"23:00"}],
   det:[["Interpreti","Soprano Antonella Orefice · Pianista Sergio Catalano"],
        ["Prima parte","1. «Vaga Luna» — V. Bellini\n2. «Malinconia» — V. Bellini\n3. «La Figlia del Reggimento», aria «Convien Partir» — G. Donizetti\n4. «Norma», aria «Casta Diva» — V. Bellini\n5. Parafrasi sul «Rigoletto» di G. Verdi — F. Liszt"],
-       ["Seconda parte","6. «L'Invito» — G. Rossini\n7. «Giusto in ciel» — G. Rossini\n8. «Non t'accostare all'urna» — G. Verdi\n9. «Ad una stella» — G. Verdi\n10. «Il Tramonto» — G. Verdi\n11. Parafrasi sul «Rigoletto» di G. Verdi — F. Liszt\n12. «Otello», aria di Desdemona «Ave Maria» — G. Verdi"]]},
+       ["Seconda parte","6. «L'Invito» — G. Rossini\n7. «Giusto ciel, in tal periglio» — G. Rossini\n8. «Non t'accostare all'urna» — G. Verdi\n9. «Ad una stella» — G. Verdi\n10. «Il Tramonto» — G. Verdi\n11. «Otello», aria di Desdemona «Ave Maria» — G. Verdi"]]},
 
  {id:"conv3", p:8, cat:"convegno", t:"«Garibaldi e Mazzini due facce della stessa medaglia»",
   sub:"Terza serata di convegni",
@@ -127,6 +127,13 @@ const EVENTI = [
        ["Relatori","Dott. Maurizio Casadei — Presidente regionale ANVRG\nProf. Luigi Ascanio — Presidente dell'Istituto per la Storia del Risorgimento Italiano, Forlì\nDott. Pietro Caruso — Giornalista, Direttore del «Pensiero Mazziniano»"],
        ["Coordina","Prof. Marco Tupponi — Avvocato e Docente"],
        ["Chiude","Enrico Pieri — Consigliere comunale"]]},
+
+ {id:"docenti", p:8, cat:"convegno", t:"Incontro con i docenti — Progetto Giovani",
+  sub:"Appuntamento conclusivo del Festival · a porte chiuse",
+  luogo:"Forlì", indir:"",
+  mapq:"Forlì",
+  occ:[{d:29,s:"",e:""}],
+  det:[["Nota","Incontro riservato ai docenti, non aperto al pubblico"]]},
 
  {id:"cri", p:13, cat:"servizio", t:"Postazione Croce Rossa Italiana",
   sub:"Presidio sanitario del Festival",
@@ -152,4 +159,4 @@ const CAT = {
  servizio:{l:"Servizio",c:"#B9C6D4"}
 };
 
-const GIORNI = [11,12,13,15,16,17,18,19,20,22,23,24,25,26,27];
+const GIORNI = [11,12,13,15,16,17,18,19,20,22,23,24,25,26,27,29];
