@@ -118,10 +118,10 @@ const EVENTI = [
        ["Prima parte","1. «Vaga Luna» — V. Bellini\n2. «Malinconia» — V. Bellini\n3. «La Figlia del Reggimento», aria «Convien Partir» — G. Donizetti\n4. «Norma», aria «Casta Diva» — V. Bellini\n5. Parafrasi sul «Rigoletto» di G. Verdi — F. Liszt"],
        ["Seconda parte","6. «L'Invito» — G. Rossini\n7. «Giusto ciel, in tal periglio» — G. Rossini\n8. «Non t'accostare all'urna» — G. Verdi\n9. «Ad una stella» — G. Verdi\n10. «Il Tramonto» — G. Verdi\n11. «Otello», aria di Desdemona «Ave Maria» — G. Verdi"]]},
 
- {id:"conv3", p:8, cat:"convegno", t:"«Garibaldi e Mazzini due facce della stessa medaglia»",
+ {id:"conv3", p:7, cat:"convegno", t:"«Garibaldi e Mazzini due facce della stessa medaglia»",
   sub:"Terza serata di convegni",
-  luogo:"Salone del Palazzo del Comune", indir:"Piazza Saffi",
-  mapq:"Palazzo Comunale Piazza Saffi Forlì",
+  luogo:"Sala Randi del Comune di Forlì", indir:"Entrata da Via delle Torri",
+  mapq:"Sala Randi Comune di Forlì Via delle Torri",
   occ:[{d:25,s:"20:00",e:"23:00"}],
   det:[["Introduce","Prof. Andrea Sirotti Gaudenzi — Docente e saggista"],
        ["Relatori","Dott. Maurizio Casadei — Presidente regionale ANVRG\nProf. Luigi Ascanio — Presidente dell'Istituto per la Storia del Risorgimento Italiano, Forlì\nDott. Pietro Caruso — Giornalista, Direttore del «Pensiero Mazziniano»"],
